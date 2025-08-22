@@ -1,0 +1,8 @@
+/.vs
+**/obj/
+**/bin/
+/out/
+/dist
+*.DotSettings.*
+*.user
+.vs/
