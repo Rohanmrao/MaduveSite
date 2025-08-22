@@ -8,26 +8,30 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        // CreateUserDto -> User
         CreateMap<CreateUserDto, User>()
-            .ForMember(dest => dest.Id, opt => opt.Ignore())
-            .ForMember(dest => dest.ProfilePhotoData, opt => opt.Ignore())
-            .ForMember(dest => dest.ProfilePhotoContentType, opt => opt.Ignore())
+            .ForMember(dest => dest.Id, opt => opt.MapFrom(src => Guid.NewGuid()))
+            .ForMember(dest => dest.PasswordHash, opt => opt.MapFrom(src => LoginService.HashPassword(src.Password)))
             .ForMember(dest => dest.Status, opt => opt.MapFrom(src => ProfileStatus.Pending))
-            .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => DateTime.UtcNow))
-            .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => DateTime.UtcNow));
+            .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc)))
+            .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc)));
 
-        // UpdateUserDto -> User
-        CreateMap<UpdateUserDto, User>()
-            .ForMember(dest => dest.Id, opt => opt.Ignore())
-            .ForMember(dest => dest.ProfilePhotoData, opt => opt.Ignore())
-            .ForMember(dest => dest.ProfilePhotoContentType, opt => opt.Ignore())
-            .ForMember(dest => dest.Status, opt => opt.Ignore())
-            .ForMember(dest => dest.CreatedAt, opt => opt.Ignore())
-            .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => DateTime.UtcNow));
+        CreateMap<UserRequest, User>()
+            .ForMember(dest => dest.Id, opt => opt.MapFrom(src => Guid.NewGuid()))
+            .ForMember(dest => dest.Status, opt => opt.MapFrom(src => ProfileStatus.Active))
+            .ForMember(dest => dest.CreatedAt, opt => opt.MapFrom(src => DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc)))
+            .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc)));
 
-        // User -> UserResponseDto
         CreateMap<User, UserResponseDto>()
+            .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status))
             .ForMember(dest => dest.HasProfilePhoto, opt => opt.MapFrom(src => src.ProfilePhotoData != null && src.ProfilePhotoData.Length > 0));
+
+        CreateMap<UpdateUserDto, User>()
+            .ForMember(dest => dest.UpdatedAt, opt => opt.MapFrom(src => DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc)));
+
+        CreateMap<Admin, AdminResponseDto>()
+            .ForMember(dest => dest.IsActive, opt => opt.MapFrom(src => src.IsActive.ToString()));
+
+        CreateMap<UserRequest, UserRequestResponseDto>()
+            .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.Status.ToString()));
     }
 }

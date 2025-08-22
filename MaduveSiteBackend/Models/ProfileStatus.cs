@@ -5,5 +5,6 @@ public enum ProfileStatus
     Pending,
     Active,
     Inactive,
-    Blocked
+    Blocked,
+    InTalks
 }

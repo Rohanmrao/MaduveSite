@@ -1,11 +1,79 @@
-@MaduveSiteBackend_HostAddress = http://localhost:5042
+### Admin Management ###
 
-GET {{MaduveSiteBackend_HostAddress}}/todos/
-Accept: application/json
+# Admin Signup
+POST http://localhost:5000/api/admin/signup
+Content-Type: application/json
 
-###
+{
+  "fullName": "Admin User",
+  "email": "admin@maduvesite.com",
+  "password": "admin123",
+  "phone": "1234567890"
+}
 
-GET {{MaduveSiteBackend_HostAddress}}/todos/1
-Accept: application/json
+### User Signup Request ###
 
-###
+# User Signup (creates a request, not a user)
+POST http://localhost:5000/api/users/signup
+Content-Type: application/json
+
+{
+  "fullName": "John Doe",
+  "email": "john@example.com",
+  "phone": "9876543210",
+  "ecclesia": "Sample Church",
+  "language": "English",
+  "education": "Bachelor's Degree",
+  "bio": "Looking for a life partner"
+}
+
+### Admin Dashboard ###
+
+# Get Dashboard Stats
+GET http://localhost:5000/api/admin/dashboard
+
+### User Request Management ###
+
+# Get Pending Requests
+GET http://localhost:5000/api/admin/requests/pending
+
+# Get Specific Request
+GET http://localhost:5000/api/admin/requests/{requestId}
+
+# Approve User Request
+POST http://localhost:5000/api/admin/requests/{requestId}/approve
+Content-Type: application/json
+
+"00000000-0000-0000-0000-000000000001"
+
+# Reject User Request
+POST http://localhost:5000/api/admin/requests/{requestId}/reject
+Content-Type: application/json
+
+"00000000-0000-0000-0000-000000000001"
+
+### Connect Requests ###
+
+# Send Connect Request (sender ID in route, receiver ID in body)
+POST http://localhost:5000/api/connectrequest/sender/00000000-0000-0000-0000-000000000001/send
+Content-Type: application/json
+
+{
+  "receiverId": "00000000-0000-0000-0000-000000000002",
+  "message": "Hi, I'd like to connect with you!"
+}
+
+# Accept Connect Request (receiver ID and sender ID in route)
+POST http://localhost:5000/api/connectrequest/receiver/00000000-0000-0000-0000-000000000002/accept/00000000-0000-0000-0000-000000000001
+
+# Reject Connect Request (receiver ID and sender ID in route)
+POST http://localhost:5000/api/connectrequest/receiver/00000000-0000-0000-0000-000000000002/reject/00000000-0000-0000-0000-000000000001
+
+# Get Pending Connect Requests (receiver ID in route - shows requests sent TO this user)
+GET http://localhost:5000/api/connectrequest/receiver/00000000-0000-0000-0000-000000000002/pending
+
+# Get Sent Connect Requests (sender ID in route - shows requests sent BY this user)
+GET http://localhost:5000/api/connectrequest/sender/00000000-0000-0000-0000-000000000001/sent
+
+# Check Connection Status (sender and receiver IDs in route)
+GET http://localhost:5000/api/connectrequest/connected/00000000-0000-0000-0000-000000000001/00000000-0000-0000-0000-000000000002

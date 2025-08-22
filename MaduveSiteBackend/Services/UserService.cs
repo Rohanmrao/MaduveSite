@@ -27,6 +27,12 @@ public class UserService : IUserService
         return user != null ? _userMapper.MapToResponseDto(user) : null;
     }
 
+    public async Task<UserResponseDto?> GetByEmailAsync(string email)
+    {
+        var user = await _userRepository.GetByEmailAsync(email);
+        return user != null ? _userMapper.MapToResponseDto(user) : null;
+    }
+
     public async Task<UserResponseDto> CreateAsync(CreateUserDto createUserDto)
     {
         var user = _userMapper.MapToEntity(createUserDto);
@@ -45,14 +51,43 @@ public class UserService : IUserService
         return _userMapper.MapToResponseDto(savedUser);
     }
 
+    public async Task DeleteAsync(Guid id)
+    {
+        var existingUser = await _userRepository.GetByIdAsync(id);
+        if (existingUser == null)
+            throw new ArgumentException("User not found");
+
+        await _userRepository.DeleteAsync(id);
+    }
+
     public async Task ChangeStatusAsync(Guid id, ProfileStatus status)
     {
         var existingUser = await _userRepository.GetByIdAsync(id);
         if (existingUser != null)
         {
             existingUser.Status = status;
-            existingUser.UpdatedAt = DateTime.UtcNow;
+            existingUser.UpdatedAt = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc);
             await _userRepository.UpdateAsync(existingUser);
         }
+    }
+
+    public Task SendConnectRequest()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task DeleteConnectRequest()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task AcceptConnectRequest()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task RejectConnectRequest()
+    {
+        throw new NotImplementedException();
     }
 }

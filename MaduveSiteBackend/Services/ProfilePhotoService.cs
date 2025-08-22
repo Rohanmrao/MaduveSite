@@ -26,7 +26,7 @@ public class ProfilePhotoService : IProfilePhotoService
 
         user.ProfilePhotoData = photoData;
         user.ProfilePhotoContentType = photoFile.ContentType;
-        user.UpdatedAt = DateTime.UtcNow;
+        user.UpdatedAt = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc);
         
         await _userRepository.UpdateAsync(user);
         return photoData;
@@ -40,7 +40,7 @@ public class ProfilePhotoService : IProfilePhotoService
 
         user.ProfilePhotoData = null;
         user.ProfilePhotoContentType = null;
-        user.UpdatedAt = DateTime.UtcNow;
+        user.UpdatedAt = DateTime.SpecifyKind(DateTime.UtcNow, DateTimeKind.Utc);
         
         await _userRepository.UpdateAsync(user);
         return true;

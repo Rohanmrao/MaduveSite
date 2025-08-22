@@ -5,7 +5,7 @@ namespace MaduveSiteBackend.Repositories;
 
 public class GenericRepository<T> : IGenericRepository<T> where T : class
 {
-    private readonly ApplicationDbContext _context;
+    protected readonly ApplicationDbContext _context;
     private readonly DbSet<T> _dbSet;
 
     public GenericRepository(ApplicationDbContext context)
@@ -25,6 +25,13 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
     }
 
     public async Task<T> CreateAsync(T entity)
+    {
+        await _dbSet.AddAsync(entity);
+        await _context.SaveChangesAsync();
+        return entity;
+    }
+
+    public async Task<T> AddAsync(T entity)
     {
         await _dbSet.AddAsync(entity);
         await _context.SaveChangesAsync();

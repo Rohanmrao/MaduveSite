@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MaduveSiteBackend.Models;
 
-[Table("users")]
-public class User
+[Table("user_requests")]
+public class UserRequest
 {
     [Key]
     [Column("id")]
@@ -54,11 +54,24 @@ public class User
     public string? ProfilePhotoContentType { get; set; }
     
     [Column("status")]
-    public ProfileStatus Status { get; set; } = ProfileStatus.Pending;
+    public RequestStatus Status { get; set; } = RequestStatus.Pending;
+    
+    [Column("admin_id")]
+    public Guid? AdminId { get; set; }
+    
+    [Column("processed_at")]
+    public DateTime? ProcessedAt { get; set; }
     
     [Column("created_at")]
     public DateTime CreatedAt { get; set; }
     
     [Column("updated_at")]
     public DateTime UpdatedAt { get; set; }
+}
+
+public enum RequestStatus
+{
+    Pending,
+    Approved,
+    Rejected
 }

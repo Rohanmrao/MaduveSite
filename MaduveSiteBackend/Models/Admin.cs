@@ -1,10 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MaduveSiteBackend.Models;
 
-[Table("users")]
-public class User
+[Table("admins")]
+public class Admin
 {
     [Key]
     [Column("id")]
@@ -30,31 +30,8 @@ public class User
     [StringLength(20)]
     public string Phone { get; set; } = string.Empty;
     
-    [Column("ecclesia")]
-    [StringLength(100)]
-    public string Ecclesia { get; set; } = string.Empty;
-    
-    [Column("language")]
-    [StringLength(50)]
-    public string Language { get; set; } = string.Empty;
-    
-    [Column("education")]
-    [StringLength(100)]
-    public string Education { get; set; } = string.Empty;
-    
-    [Column("bio")]
-    [StringLength(1000)]
-    public string Bio { get; set; } = string.Empty;
-    
-    [Column("profile_photo_data")]
-    public byte[]? ProfilePhotoData { get; set; }
-    
-    [Column("profile_photo_content_type")]
-    [StringLength(100)]
-    public string? ProfilePhotoContentType { get; set; }
-    
-    [Column("status")]
-    public ProfileStatus Status { get; set; } = ProfileStatus.Pending;
+    [Column("is_active")]
+    public bool IsActive { get; set; } = true;
     
     [Column("created_at")]
     public DateTime CreatedAt { get; set; }
