@@ -596,7 +596,7 @@ Creates a user signup request that requires admin approval.
       "imageNumber": 1,
       "contentType": "image/jpeg",
       "size": 1024000,
-      "imageUrl": "/api/profile-image/user-guid-here/image/1"
+      "imageUrl": "/api/profile-image/user-guid-here/image/1" --> make a call to this endpoint to GET the image
     },
     {
       "imageNumber": 3,
@@ -898,29 +898,6 @@ ASPNETCORE_ENVIRONMENT=Production
 ASPNETCORE_URLS=http://localhost:5000
 ```
 
-### Docker Deployment
-```dockerfile
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-WORKDIR /app
-EXPOSE 5000
-
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /src
-COPY ["MaduveSiteBackend/MaduveSiteBackend.csproj", "MaduveSiteBackend/"]
-RUN dotnet restore "MaduveSiteBackend/MaduveSiteBackend.csproj"
-COPY . .
-WORKDIR "/src/MaduveSiteBackend"
-RUN dotnet build "MaduveSiteBackend.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "MaduveSiteBackend.csproj" -c Release -o /app/publish
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "MaduveSiteBackend.dll"]
-```
-
 ---
 
 ## API Testing
@@ -961,35 +938,3 @@ curl -X POST "http://localhost:5000/api/login/user" \
 ```
 
 ---
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
----
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## Support
-
-For support and questions:
-- Create an issue in the repository
-- Contact the development team
-- Check the Swagger documentation for API details
-
----
-
-## Version History
-
-- **v1.0.0**: Initial release with basic user and admin functionality
-- **v1.1.0**: Added connect requests and profile photos
-- **v1.2.0**: Enhanced security with password hashing and admin permissions
-- **v1.3.0**: Added application status tracking and comprehensive login system
