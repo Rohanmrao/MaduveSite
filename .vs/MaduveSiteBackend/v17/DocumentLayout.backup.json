@@ -1,0 +1,400 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\data\\scripts\\001_createuserstable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\data\\scripts\\001_createuserstable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\services\\profilephotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\services\\profilephotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\services\\iprofilephotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\services\\iprofilephotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\data\\scripts\\002_sampledata.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\data\\scripts\\002_sampledata.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\models\\profilestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\models\\profilestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\services\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\maduvesitebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\maduvesitebackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\data\\scripts\\001_createuserstable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\data\\scripts\\001_createuserstable.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|c:\\dev\\personal\\maduvesite\\maduvesitebackend\\maduvesitebackend\\data\\scripts\\002_sampledata.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{2BEC4F75-540F-419A-BF5E-C0C83FE5E562}|MaduveSiteBackend\\MaduveSiteBackend.csproj|solutionrelative:maduvesitebackend\\data\\scripts\\002_sampledata.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "002_SampleData.sql ",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Data\\Scripts\\002_SampleData.sql",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Data\\Scripts\\002_SampleData.sql",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Data\\Scripts\\002_SampleData.sql",
+              "RelativeToolTip": "MaduveSiteBackend\\Data\\Scripts\\002_SampleData.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-22T07:54:43.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\appsettings.Development.json",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\appsettings.Development.json",
+              "RelativeToolTip": "MaduveSiteBackend\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-22T07:48:55.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:28:15.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Services\\UserService.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\UserService.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:40:28.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\appsettings.json",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\appsettings.json",
+              "RelativeToolTip": "MaduveSiteBackend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-22T07:59:36.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\IUserService.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:39:26.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "001_CreateUsersTable.sql ",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Data\\Scripts\\001_CreateUsersTable.sql",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Data\\Scripts\\001_CreateUsersTable.sql",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Data\\Scripts\\001_CreateUsersTable.sql",
+              "RelativeToolTip": "MaduveSiteBackend\\Data\\Scripts\\001_CreateUsersTable.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-08-22T07:47:09.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Program.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Program.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Program.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:42:10.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProfilePhotoService.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\IProfilePhotoService.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Services\\IProfilePhotoService.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\IProfilePhotoService.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Services\\IProfilePhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:58:46.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfilePhotoService.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\ProfilePhotoService.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Services\\ProfilePhotoService.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\ProfilePhotoService.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Services\\ProfilePhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:59:03.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:28:19.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\README.md",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\README.md",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\README.md",
+              "RelativeToolTip": "MaduveSiteBackend\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-22T07:45:28.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\AdminService.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Services\\AdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:40:52.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv2MAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:41:35.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:47:28.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:28:33.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T07:28:26.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\IAdminService.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Services\\IAdminService.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Services\\IAdminService.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Services\\IAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:39:40.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProfileStatus.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Models\\ProfileStatus.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Models\\ProfileStatus.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Models\\ProfileStatus.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Models\\ProfileStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:39:13.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:42:02.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\Models\\User.cs",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\Models\\User.cs",
+              "RelativeToolTip": "MaduveSiteBackend\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:39:03.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MaduveSiteBackend",
+              "DocumentMoniker": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\MaduveSiteBackend.csproj",
+              "RelativeDocumentMoniker": "MaduveSiteBackend\\MaduveSiteBackend.csproj",
+              "ToolTip": "C:\\Dev\\Personal\\MaduveSite\\MaduveSiteBackend\\MaduveSiteBackend\\MaduveSiteBackend.csproj",
+              "RelativeToolTip": "MaduveSiteBackend\\MaduveSiteBackend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-22T06:38:07.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+Christadelphian Matrimonial Website Requirement Document
+1. Project Overview
+Purpose: To create a user-friendly and secure matrimonial platform that helps individuals find  partners .
+
+2. Key Objectives
+•	Enable users to create and manage profiles.
+•	Offer matchmaking based on user preferences.
+•	Provide admin control over content and users.
+3. Target Users
+•	Individuals seeking marriage (typically 21+)
+•	Parents creating profiles
+•	Admins/moderators
+
+4. Functional Requirements
+A. User Module
+•	Sign up / Log in (Email or Phone)
+•	Profile creation (bio, eccelsia, language, education, etc.)
+•	Profile photo upload 
+•	View and search profiles
+•	Send interest / shortlist
+•	Change status of the profile
+B. Matchmaking Module
+•	Smart match suggestions (based on preferences)
+•	Manual search (filters by age, caste, education, location)
+C. Communication Module
+•	Notification alerts (email/SMS/WhatsApp)
+D. Admin Module
+•	User verification and approval
+•	Profiles management
+•	Add/edit site content (terms, FAQs, testimonials)
+•	Analytics dashboard (registrations, active users, etc.)
+5. Non-Functional Requirements
+•	Responsive Design: Mobile, tablet, and desktop compatible
+
+6. Technology Stack (??)
+Layer	Tech
+Frontend	React.js / Next.js ???
+Backend	Node.js / Django / Laravel
+Database	PostgreSQL / MongoDB
+Hosting	??
