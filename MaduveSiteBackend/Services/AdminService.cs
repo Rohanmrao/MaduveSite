@@ -77,6 +77,12 @@ public class AdminService : IAdminService
             Bio = userRequest.Bio,
             ProfilePhotoData = userRequest.ProfilePhotoData,
             ProfilePhotoContentType = userRequest.ProfilePhotoContentType,
+            ProfileImage1Data = userRequest.ProfileImage1Data,
+            ProfileImage1ContentType = userRequest.ProfileImage1ContentType,
+            ProfileImage2Data = userRequest.ProfileImage2Data,
+            ProfileImage2ContentType = userRequest.ProfileImage2ContentType,
+            ProfileImage3Data = userRequest.ProfileImage3Data,
+            ProfileImage3ContentType = userRequest.ProfileImage3ContentType,
             Status = ProfileStatus.Active
         };
 

@@ -101,6 +101,9 @@ public class UserResponseDto
     public string Education { get; set; } = string.Empty;
     public string Bio { get; set; } = string.Empty;
     public bool HasProfilePhoto { get; set; }
+    public bool HasProfileImage1 { get; set; }
+    public bool HasProfileImage2 { get; set; }
+    public bool HasProfileImage3 { get; set; }
     public ProfileStatus Status { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }

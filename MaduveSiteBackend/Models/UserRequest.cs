@@ -53,6 +53,27 @@ public class UserRequest
     [StringLength(100)]
     public string? ProfilePhotoContentType { get; set; }
     
+    [Column("profile_image_1_data")]
+    public byte[]? ProfileImage1Data { get; set; }
+    
+    [Column("profile_image_1_content_type")]
+    [StringLength(100)]
+    public string? ProfileImage1ContentType { get; set; }
+    
+    [Column("profile_image_2_data")]
+    public byte[]? ProfileImage2Data { get; set; }
+    
+    [Column("profile_image_2_content_type")]
+    [StringLength(100)]
+    public string? ProfileImage2ContentType { get; set; }
+    
+    [Column("profile_image_3_data")]
+    public byte[]? ProfileImage3Data { get; set; }
+    
+    [Column("profile_image_3_content_type")]
+    [StringLength(100)]
+    public string? ProfileImage3ContentType { get; set; }
+    
     [Column("status")]
     public RequestStatus Status { get; set; } = RequestStatus.Pending;
     

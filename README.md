@@ -359,6 +359,67 @@ Creates a user signup request that requires admin approval.
 
 **Response**: `204 No Content`
 
+### 10. Get Pending Request by ID
+**Endpoint**: `GET /api/admin/requests/{id}`
+
+**Response**:
+```json
+{
+  "id": "request-guid-here",
+  "fullName": "Jane Smith",
+  "email": "jane@example.com",
+  "phone": "9876543210",
+  "ecclesia": "St. Joseph's Church",
+  "language": "English",
+  "education": "Bachelor's Degree",
+  "bio": "Looking for a life partner.",
+  "status": "Pending",
+  "createdAt": "2024-01-01T10:00:00Z"
+}
+```
+
+### 11. Delete All Pending Requests
+**Endpoint**: `DELETE /api/admin/requests/all`
+
+**Response**: `204 No Content`
+
+### 12. Delete Specific Pending Request
+**Endpoint**: `DELETE /api/admin/requests/{id}`
+
+**Response**: `204 No Content`
+
+### 13. Get Admin by ID
+**Endpoint**: `GET /api/admin/{id}`
+
+**Response**:
+```json
+{
+  "id": "admin-guid-here",
+  "fullName": "Admin User",
+  "email": "admin@example.com",
+  "phone": "1234567890",
+  "isActive": true,
+  "createdAt": "2024-01-01T10:00:00Z"
+}
+```
+
+### 14. Update Admin
+**Endpoint**: `PUT /api/admin/{id}`
+
+**Request Body**:
+```json
+{
+  "fullName": "Updated Admin Name",
+  "email": "admin@example.com",
+  "phone": "1234567890"
+}
+```
+
+### 15. Remove Admin
+**Endpoint**: `DELETE /api/admin/{id}`
+
+**Response**: `204 No Content`
+
 ---
 
 ## Connect Requests
@@ -534,12 +595,14 @@ Creates a user signup request that requires admin approval.
     {
       "imageNumber": 1,
       "contentType": "image/jpeg",
-      "size": 1024000
+      "size": 1024000,
+      "imageUrl": "/api/profile-image/user-guid-here/image/1"
     },
     {
       "imageNumber": 3,
       "contentType": "image/png",
-      "size": 2048000
+      "size": 2048000,
+      "imageUrl": "/api/profile-image/user-guid-here/image/3"
     }
   ]
 }

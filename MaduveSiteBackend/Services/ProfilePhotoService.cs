@@ -1,14 +1,17 @@
 using MaduveSiteBackend.Repositories;
+using MaduveSiteBackend.Configuration;
 
 namespace MaduveSiteBackend.Services;
 
 public class ProfilePhotoService : IProfilePhotoService
 {
     private readonly IUserRepository _userRepository;
+    private readonly AppSettings _appSettings;
 
-    public ProfilePhotoService(IUserRepository userRepository)
+    public ProfilePhotoService(IUserRepository userRepository, AppSettings appSettings)
     {
         _userRepository = userRepository;
+        _appSettings = appSettings;
     }
 
     public async Task<byte[]> UploadPhotoAsync(Guid userId, IFormFile photoFile)
@@ -57,17 +60,15 @@ public class ProfilePhotoService : IProfilePhotoService
         if (file == null || file.Length == 0)
             return false;
 
-        var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif", ".webp" };
         var fileExtension = Path.GetExtension(file.FileName).ToLowerInvariant();
 
-        if (!allowedExtensions.Contains(fileExtension))
+        if (!_appSettings.AllowedImageExtensions.Contains(fileExtension))
             return false;
 
-        var allowedMimeTypes = new[] { "image/jpeg", "image/jpg", "image/png", "image/gif", "image/webp" };
-        if (!allowedMimeTypes.Contains(file.ContentType.ToLowerInvariant()))
+        if (!_appSettings.AllowedImageMimeTypes.Contains(file.ContentType.ToLowerInvariant()))
             return false;
 
-        if (file.Length > 5 * 1024 * 1024) // 5MB limit
+        if (file.Length > _appSettings.MaxImageSizeBytes)
             return false;
 
         return true;
